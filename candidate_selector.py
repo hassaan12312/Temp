@@ -6,7 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from dotenv import load_dotenv
 
 load_dotenv()
-os.environ['GROQ_API_KEY'] = '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'
+os.environ['GROQ_API_KEY'] = 'Your API key here'
 
 def rate_relevant_candidates(pdf_content, job_desc):
     
